@@ -1,0 +1,96 @@
+/* Import Google Fonts */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* General Button Styling */
+/* style.css */
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background Color Theme */
+body {
+    font-family: 'Arimo', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for the form */
+.login {
+    background: #ffffff; /* Form box color */
+    padding: 40px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Title Styling */
+.login h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Input Field Styling */
+.login input[type="text"],
+.login select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #f0f0f0; /* Light gray background for inputs */
+}
+
+/* Label Styling */
+.login label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+    color: #555;
+}
+
+/* Button Styling */
+.login button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #ff5722; /* Button color */
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login button:hover {
+    background: #e64a19; /* Darker button color on hover */
+}
+
+/* Styling for Prediction Text */
+.login .prediction_text {
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .login {
+        padding: 20px;
+        width: 90%;
+    }
+}
